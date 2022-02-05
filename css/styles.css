@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Jura', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.container{
+width: 100%;
+overflow: hidden;
+background-color: cornflowerblue;
+}
+
+.left1{
+    width: 33%;
+    height: 12rem;
+    float: left;
+    background-color: crimson;
+}
+
+.left1__imagen{
+    width:100px;
+    height:80px;
+    
+}
+
+.center1{
+    width: 33%;
+    height: 12rem;
+    float: left;
+    background-color:darkblue;
+}
+
+.center1__titulo{
+    margin-top: 4rem;
+}
+
+.right1{
+    width: 33%;
+    height: 12rem;
+    float: right;
+    background-color:darkmagenta;
+}
+
+
+
+.contenedor{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+.left{
+    width: 33%;
+    height: 10rem;
+    display: inline-block;
+    background-color: red;
+}
+
+.left img{
+    width: 100px;
+    height: 80px;
+}
+
+.center{
+    width: 33%;
+    display: inline-block;
+    background-color: brown;
+}
+
+.center__contenido{
+    margin-top: 40px;
+}
+
+.right {
+    width: 33%;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    background-color: chocolate;
+}
+
+
+.right__contenido{
+    margin-top: 40px;
+}
